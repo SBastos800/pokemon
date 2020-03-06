@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  width: 100vw;
+  
+}

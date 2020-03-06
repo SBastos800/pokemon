@@ -1,0 +1,24 @@
+.pokeCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 9px solid grey;
+    height: 500px;
+    // width: 270px;
+    width: 40%;
+    background-color: #c0bebe;
+    img {
+        height: 30%;
+        width: 30%;
+    }
+    div {
+        text-align: center;
+        
+    }
+    
+
+
+}
+
+
