@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import PokeList from "../../components/PokeList";
-// import SearchBar from "../../components/PokeList/SearchBar/SearchBar";
-
 import styles from './App.module.scss';
 
 export default class App extends Component {
   render() {
     return(
       <section className={styles.app}>
-        {/* <SearchBar /> */}
+        <h2 className={styles.pokemonsTitle}>POKEMON CARDS</h2>
         <PokeList />
-      
-
       </section>
-    )
+    );
   } 
 }
 

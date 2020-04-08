@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styles from "./PokeCard.module.scss";
 import Skills from "../PokeCard/Skills/Skills";
 
-
 export default class PokeCard extends Component {
     render() {
         return (
@@ -10,18 +9,11 @@ export default class PokeCard extends Component {
                 <img className={styles.image}
                     src={this.props.pokeData.image}
                 />
-                <div className={styles.pokeName}>
-                    <h3>{this.props.pokeData.name}</h3>
-                </div>
-                <div className={styles.pokeAbility}>
-                    <h4>{this.props.pokeData.ability}</h4>
-                </div>
-                <div className={styles.pokeLocation}>
-                    <h4>{this.props.pokeData.location}</h4>
-                </div>
-
+                    <h3>Name: {this.props.pokeData.name}</h3>
+                    <p>Ability: {this.props.pokeData.ability}</p>
+                    <p>Location: {this.props.pokeData.location}</p>
                 <Skills className={styles.skillsCss} skills={this.props.pokeData.skills} />
             </section>
-        )
+        );
     }
 }

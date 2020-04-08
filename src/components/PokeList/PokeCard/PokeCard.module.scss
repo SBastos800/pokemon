@@ -3,22 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 9px solid grey;
-    height: 500px;
-    // width: 270px;
-    width: 40%;
+    height: 350px;
+    width: 30%;
+    border-radius: 10px;
     background-color: #c0bebe;
+    transition: 0.5s;
+    margin: 40px;
+ 
+    h3, p {
+        margin: 0;
+    }
+
+    &:hover {
+        transition: 0.5s;
+        box-shadow: 10px 10px 10px rgba(0,0,0, 0.5);
+    }
+
     img {
         height: 30%;
         width: 30%;
     }
+
     div {
-        text-align: center;
-        
+        text-align: center;  
     }
-    
-
-
 }
 
 

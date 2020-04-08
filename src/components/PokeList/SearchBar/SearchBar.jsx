@@ -11,6 +11,6 @@ export default class SearchBar extends Component {
                     onChange={this.props.setSearchText}
                 />
             </section>
-        )
+        );
     }
 }
