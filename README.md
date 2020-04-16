@@ -1,3 +1,11 @@
+# Pokemon Cards
+
+This is a React App using Firebase database. The data renders directly from the database. The aim was to create Pokemon Cards that render data from the database and be able to search the card by name. Created a search bar where you can directly type the name and it will find the card.
+
+This app was build in React. If you clone this repo down you will need to do a 'yarn install' in the terminal in order to install all of the related packages. Then, you can do a 'yarn start' to view a demo version of the app.
+
+This app is available at https://pokemon-f53c3.firebaseapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
