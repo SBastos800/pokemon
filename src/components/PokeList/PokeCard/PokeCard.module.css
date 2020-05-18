@@ -1,0 +1,43 @@
+.pokeCardWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  width: 25%;
+  border-radius: 10px;
+  background-color: #c0bebe;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 40px;
+}
+
+.pokeCardWrapper h3, .pokeCardWrapper p {
+  margin: 0;
+}
+
+.pokeCardWrapper:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pokeCardWrapper img {
+  height: 30%;
+  width: 30%;
+}
+
+.pokeCardWrapper div {
+  text-align: center;
+}
+/*# sourceMappingURL=PokeCard.module.css.map */
